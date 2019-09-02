@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="ck_htmledit_views-3019150162.css">
+</head>
+<body>
+<div class="blog-content-box">
+    <div class="article-header-box">
+        <div class="article-header">
+            <div class="article-title-box">
+                <h1 class="title-article">如何在github上传本地项目代码（新手使用）</h1>
+            </div>
+        </div>
+    </div>
+    <article class="baidu_pl">
+        <div id="article_content" class="article_content clearfix">
+            <div class="htmledit_views" id="content_views">
+                <p><strong>首先你要在github上申请一个账号</strong></p>
+
+                <p>网址：<a href="https://github.com/" rel="nofollow" data-token="3f0b9a090ad292555c4d8a042bdac5d7">https://github.com/</a></p>
+
+                <p><strong>然后你要下载一个git工具</strong></p>
+
+                <p>网址：<a href="https://gitforwindows.org/" rel="nofollow" data-token="87ed51c8c324e311b83afdbc6b1edec4">https://gitforwindows.org/</a></p>
+
+                <p>进入官网直接下载就行，下载完成后进入github首页，点击新项目<span style="color:#f33b45;"><strong>new repository</strong></span>，如下图所示：</p>
+
+                <p><img alt="" class="has" src="https://img-blog.csdn.net/20180731161539223?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0phY2tzb24yMzMzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"></p>
+
+                <p>然后进入如下页面，主要填写红色圈起来的几个部分，如下图：</p>
+
+                <p><img alt="" class="has" src="https://img-blog.csdn.net/20180731162045347?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0phY2tzb24yMzMzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"></p>
+
+                <p>最后点击<span style="color:#f33b45;"><strong>Create repository</strong>,</span>生成如下页面：</p>
+
+                <p><img alt="" class="has" src="https://img-blog.csdn.net/20180731162251370?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0phY2tzb24yMzMzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"></p>
+
+                <p>按红色圈圈画的步骤，先点击<span style="color:#f33b45;"><strong>Clone or download</strong>,</span> 然后复制第二步的地址，待会上传项目有用.</p>
+
+                <p>接下来就是在本地操作了，在此之前你一定要把git安装好，<span style="color:#f33b45;"><strong>然后找到你要上传的文件夹项目，右键点击文件夹（注意：不能选单个文件或者压缩包）</strong></span>在选项里会有</p>
+
+                <p><strong>Git Gui Here,Git Bash Here</strong>出现，选择<strong>Git Bash Here</strong>，会出现下图：</p>
+
+                <p><img alt="" class="has" src="https://img-blog.csdn.net/20180731163443319?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0phY2tzb24yMzMzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"></p>
+
+                <p>然后把你之前在<span style="color:#f33b45;"><strong>clone or download</strong></span>里复制的地址按下图粘贴，或者手动输入：</p>
+
+                <p><img alt="" class="has" src="https://img-blog.csdn.net/20180731163534436?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0phY2tzb24yMzMzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"></p>
+
+                <p>记住地址前面要加<span style="color:#f33b45;"><strong>git clone.</strong></span></p>
+
+                <p><strong>然后你的项目文件里就会增加一个你在github上创建的项目名称，如下图：</strong></p>
+
+                <p><img alt="" class="has" src="https://img-blog.csdn.net/20180731163912100?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0phY2tzb24yMzMzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"></p>
+
+                <p>红色圈圈画起来的文件夹<span style="color:#f33b45;"><strong>meituan</strong></span>,就是新增的文件夹，然后把你在这个目录要上传的文件复制到<span style="color:#f33b45;"><strong>meituan</strong></span>文件夹里。</p>
+
+                <p>然后在git命令行切换目录在meituan文件里，输入命令<span style="color:#f33b45;"><strong>cd meituan</strong></span>回车，如下图所示：</p>
+
+                <p><img alt="" class="has" src="https://img-blog.csdn.net/20180731165159113?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0phY2tzb24yMzMzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"></p>
+
+                <p>然后输入命令<span style="color:#f33b45;"><strong>" git add . "(</strong></span><strong>注意" . "不能省略，此操作是把meituan文件夹下面新的文件或修改过的文件添加进来，</strong></p>
+
+                <p><strong>如果有的文件之前已经添加了，它会自动省略</strong><span style="color:#f33b45;"><strong>)</strong></span></p>
+
+                <p><img alt="" class="has" src="https://img-blog.csdn.net/2018073116523133?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0phY2tzb24yMzMzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"></p>
+
+                <p>然后输入<strong>git commit &nbsp;-m &nbsp;"提交信息" <span style="color:#f33b45;">（提交的信息是你的项目说明）</span></strong></p>
+
+                <p>（注：<strong> git commit</strong> 后面加 <strong>-m</strong> 表示可以直接输入提交说明，如果不加 <strong>-m</strong> ，直接输入<strong>git commit</strong>，就会弹出一个</p>
+
+                <p>类似于<strong> vim </strong>的界面，让你输入提交说明。)</p>
+
+                <p>有些刚开使用的用户输入提交时会出现错误，如下图：</p>
+
+                <p><img alt="" class="has" src="https://img-blog.csdn.net/2018073116585355?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0phY2tzb24yMzMzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"></p>
+
+                <p><span style="color:#f33b45;"><strong>这时你要先全局配置好在git上的用户名和邮箱，如下图所示输入命令：</strong></span></p>
+
+                <p><img alt="" class="has" src="https://img-blog.csdn.net/20180731165646783?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0phY2tzb24yMzMzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"></p>
+
+                <p>然后再输入提交的命令，如图：</p>
+
+                <p><img alt="" class="has" src="https://img-blog.csdn.net/2018073117013459?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0phY2tzb24yMzMzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"></p>
+
+                <p>这样就快上传成功了，最后输入命令<span style="color:#f33b45;"><strong>git push -u origin master</strong></span><strong>（此操作目的是把本地仓库push到github上面，此步骤需要你输入登录github上的帐号和密码）</strong></p>
+
+                <p><img alt="" class="has" src="https://img-blog.csdn.net/20180731170232754?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0phY2tzb24yMzMzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"></p>
+
+                <p>然后进入里的github页面，刷新下页面就会显示你的项目，如下图所示：</p>
+
+                <p><img alt="" class="has" src="https://img-blog.csdn.net/20180731170533505?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0phY2tzb24yMzMzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"></p>
+
+                <p>这样你的项目就成功上传了。</p>
+            </div>
+        </div>
+    </article>
+</div>
+</body>
+</html>
