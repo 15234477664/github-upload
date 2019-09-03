@@ -15,20 +15,19 @@
 ![Image text](https://github.com/15234477664/github-upload/blob/master/img/3.png)
 
 按红色圈圈画的步骤，先点击Clone or download, 然后复制第二步的地址，待会上传项目有用.
-
 接下来就是在本地操作了，在此之前你一定要把git安装好，然后找到你要上传的文件夹项目，右键点击文件夹（注意：不能选单个文件或者压缩包）在选项里会有
 
 Git Gui Here,Git Bash Here出现，选择Git Bash Here，会出现下图：
 ![Image text](https://github.com/15234477664/github-upload/blob/master/img/4.png)
 
 然后把你之前在clone or download里复制的地址按下图粘贴，或者手动输入：
+记住地址前面要加git clone.
 ![Image text](https://github.com/15234477664/github-upload/blob/master/img/5.png)
 
-记住地址前面要加git clone.
 
 然后你的项目文件里就会增加一个你在github上创建的项目名称，如下图：
-![Image text](https://github.com/15234477664/github-upload/blob/master/img/6.png)
 红色圈圈画起来的文件夹meituan,就是新增的文件夹，然后把你在这个目录要上传的文件复制到meituan文件夹里。
+![Image text](https://github.com/15234477664/github-upload/blob/master/img/6.png)
 
 然后在git命令行切换目录在meituan文件里，输入命令cd meituan回车，如下图所示：
 ![Image text](https://github.com/15234477664/github-upload/blob/master/img/7.png)
