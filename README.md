@@ -26,6 +26,7 @@ Git Gui Here,Git Bash Here出现，选择Git Bash Here，会出现下图：
 
 
 然后你的项目文件里就会增加一个你在github上创建的项目名称，如下图：红色圈圈画起来的文件夹meituan,就是新增的文件夹，然后把你在这个目录要上传的文件复制到meituan文件夹里。
+
 ![Image text](https://github.com/15234477664/github-upload/blob/master/img/6.png)
 
 然后在git命令行切换目录在meituan文件里，输入命令cd meituan回车，如下图所示：
