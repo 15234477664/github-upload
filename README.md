@@ -48,9 +48,11 @@ Git Gui Here,Git Bash Here出现，选择Git Bash Here，会出现下图：
 ![Image text](https://github.com/15234477664/github-upload/blob/master/img/11.png)
 
 这样就快上传成功了，最后输入命令git push -u origin master（此操作目的是把本地仓库push到github上面，此步骤需要你输入登录github上的帐号和密码）
+
 ![Image text](https://github.com/15234477664/github-upload/blob/master/img/12.png)
 
 然后进入里的github页面，刷新下页面就会显示你的项目，如下图所示：
+
 ![Image text](https://github.com/15234477664/github-upload/blob/master/img/13.png)
 
 这样你的项目就成功上传了。
