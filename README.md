@@ -35,6 +35,7 @@ Git Gui Here,Git Bash Here出现，选择Git Bash Here，会出现下图：
 然后输入命令" git add . "(注意" . "不能省略，此操作是把meituan文件夹下面新的文件或修改过的文件添加进来，如果有的文件之前已经添加了，它会自动省略)
 
 ![Image text](https://github.com/15234477664/github-upload/blob/master/img/8.png)
+
 然后输入git commit  -m  "提交信息" （提交的信息是你的项目说明）（注： git commit 后面加 -m 表示可以直接输入提交说明，如果不加 -m ，直接输入git commit，就会弹出一个类似于 vim 的界面，让你输入提交说明。)
 有些刚开使用的用户输入提交时会出现错误，如下图：
 ![Image text](https://github.com/15234477664/github-upload/blob/master/img/9.png)
