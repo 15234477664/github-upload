@@ -33,6 +33,7 @@ Git Gui Here,Git Bash Here出现，选择Git Bash Here，会出现下图：
 ![Image text](https://github.com/15234477664/github-upload/blob/master/img/7.png)
 
 然后输入命令" git add . "(注意" . "不能省略，此操作是把meituan文件夹下面新的文件或修改过的文件添加进来，如果有的文件之前已经添加了，它会自动省略)
+注：多人合作是需要先进入文件夹，然后git pull 进行更新
 
 ![Image text](https://github.com/15234477664/github-upload/blob/master/img/8.png)
 
